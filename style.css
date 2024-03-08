@@ -1,0 +1,254 @@
+*{
+    margin: 0 auto;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 20%;
+    }
+.logo-name{
+    display: flex;
+    align-items: center;
+    }
+.travel{
+    color: #FF5400;
+}
+.logo-name>img{
+    width: 35px;
+    margin-right: 5px;
+}
+nav>ul{
+display: flex; 
+justify-content: end;  
+}
+nav>ul>li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 18pt;
+    margin-left: 20px;
+    }
+li>a{
+    text-decoration: none;
+    
+}
+.home{
+    color: #FF5400;
+}
+.header-bg{
+    margin-top: 50px;
+    width: 1170px;
+    height: 500px;
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+   
+}
+.header-bg-1{
+    width: 1170px;
+    height: 500px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(0, 0, 0));
+    border-radius: 15px;
+
+            
+}
+.header-padding{
+    padding: 100px;
+}
+.text-area{
+    width: 800px;
+    height: 240px;
+    }
+
+.text-area h1{
+    font-size: 64pt;
+    color: white;
+   
+}
+.text-area > p{
+    color: white;
+    font-size: 16pt;
+    margin-top: 20px;
+    
+}
+.search{
+    width: 800px;
+    height: 80px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+        
+  
+}
+.Where-go{
+    width: 174px;
+    height: 52px;
+    background-color: #ffffff;
+    color: #131318;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    }
+.Where-go>p{
+    margin-left: 30px;
+}
+.When{
+    width: 174px;
+    height: 52px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    color: #131318;
+    border-radius: 10px;
+}
+.When img{
+    width: 16pt;
+}
+.Select-Type{
+    width: 174px;
+    height: 52px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    color: #131318;
+    border-radius: 10px;
+    }
+    .Select-Type img{
+        width: 16pt;
+    }
+.Find-Now{
+    width: 174px;
+    height: 52px;
+    background-color: #FF5400;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.Popular{
+    width: 1170px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+
+}
+.Popular h2{
+    font-size: 40pt;
+}
+
+.Popular p{
+    font-size: 16pt;
+    margin-top: 15px;
+}
+.Popular li{
+    font-size: 16pt;
+    margin-top: 15px;
+}
+
+
+.button-color{
+    color: white;
+    font-size: 20pt;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+
+.Destination{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16pt;
+}
+.Destination h2{
+    font-size: 40pt;
+
+}
+.galary{
+    width: 1170px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+    position: relative;
+   }
+
+.galary p{
+    font-size: 28pt;
+    font-weight: bold;
+    color: white;
+}
+.Choose-Us{
+    width: 1170px;
+    margin-top: 50px;
+    }
+.Choose-Us h2{
+    font: 40pt;
+    text-align: center;
+}
+.Choose-Us p{
+    font-size: 16pt;
+    width: 643px;
+    
+}
+.choise{
+   display: flex;
+   flex-wrap: wrap;
+   gap:5px;
+   margin-top: 50px;
+      
+ 
+}
+.description p{
+    width: 470px;
+}
+
+
+.Handpicked{
+    width: 573px;
+    height: 284px;
+    
+    
+
+}
+.Handpicked img{
+    width: 100px;
+    
+}
+.World-Class{
+    width: 573px;
+    height: 284px;
+    
+   
+
+    
+}
+.World-Class img{
+    width: 50px;
+}
+.Best-Price{
+    width: 573px;
+    height: 284px;
+    
+   
+    
+}
+.Best-Price img{
+    width: 120px;
+}
+
+footer{
+    margin-top: 30px;
+    
+    
+    
+    
+}
+
+.footer-logo img{
+    width: 35px;
+}
